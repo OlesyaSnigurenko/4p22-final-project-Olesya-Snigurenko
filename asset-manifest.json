@@ -1,16 +1,20 @@
 {
   "files": {
-    "main.css": "/4p22-final-project-Olesya-Snigurenko/static/css/main.073c9b0a.css",
-    "main.js": "/4p22-final-project-Olesya-Snigurenko/static/js/main.edb5b74e.js",
-    "static/js/787.28cb0dcd.chunk.js": "/4p22-final-project-Olesya-Snigurenko/static/js/787.28cb0dcd.chunk.js",
-    "static/media/logo.svg": "/4p22-final-project-Olesya-Snigurenko/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/4p22-final-project-Olesya-Snigurenko/static/css/main.c1c9d2ec.css",
+    "main.js": "/4p22-final-project-Olesya-Snigurenko/static/js/main.425476ec.js",
+    "static/media/twitter.svg": "/4p22-final-project-Olesya-Snigurenko/static/media/twitter.bf8b37f7ad05a54b6f72627d6b3bfc0c.svg",
+    "static/media/telephone.svg": "/4p22-final-project-Olesya-Snigurenko/static/media/telephone.7c1620056919d18d5075a28ec30a54eb.svg",
+    "static/media/logo.svg": "/4p22-final-project-Olesya-Snigurenko/static/media/logo.b35a88e7f2d6185a6f047d4bccc122cd.svg",
+    "static/media/basket.svg": "/4p22-final-project-Olesya-Snigurenko/static/media/basket.a2620d2b210b9a230b74dab3c56d7cd6.svg",
+    "static/media/instagram.svg": "/4p22-final-project-Olesya-Snigurenko/static/media/instagram.d2c3522b6737cc9bb36dd1346da9e73a.svg",
+    "static/media/facebook.svg": "/4p22-final-project-Olesya-Snigurenko/static/media/facebook.5e23e944cd9667bb589c52bb6be5dd5b.svg",
     "index.html": "/4p22-final-project-Olesya-Snigurenko/index.html",
-    "main.073c9b0a.css.map": "/4p22-final-project-Olesya-Snigurenko/static/css/main.073c9b0a.css.map",
-    "main.edb5b74e.js.map": "/4p22-final-project-Olesya-Snigurenko/static/js/main.edb5b74e.js.map",
-    "787.28cb0dcd.chunk.js.map": "/4p22-final-project-Olesya-Snigurenko/static/js/787.28cb0dcd.chunk.js.map"
+    "static/media/search.svg": "/4p22-final-project-Olesya-Snigurenko/static/media/search.3808c99401d8f1e83fec20d5cae7c394.svg",
+    "main.c1c9d2ec.css.map": "/4p22-final-project-Olesya-Snigurenko/static/css/main.c1c9d2ec.css.map",
+    "main.425476ec.js.map": "/4p22-final-project-Olesya-Snigurenko/static/js/main.425476ec.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.edb5b74e.js"
+    "static/css/main.c1c9d2ec.css",
+    "static/js/main.425476ec.js"
   ]
 }
