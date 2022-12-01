@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/4p22-final-project-Olesya-Snigurenko/static/css/main.c1c9d2ec.css",
-    "main.js": "/4p22-final-project-Olesya-Snigurenko/static/js/main.425476ec.js",
+    "main.js": "/4p22-final-project-Olesya-Snigurenko/static/js/main.32b57817.js",
     "static/media/twitter.svg": "/4p22-final-project-Olesya-Snigurenko/static/media/twitter.bf8b37f7ad05a54b6f72627d6b3bfc0c.svg",
     "static/media/telephone.svg": "/4p22-final-project-Olesya-Snigurenko/static/media/telephone.7c1620056919d18d5075a28ec30a54eb.svg",
     "static/media/logo.svg": "/4p22-final-project-Olesya-Snigurenko/static/media/logo.b35a88e7f2d6185a6f047d4bccc122cd.svg",
@@ -11,10 +11,10 @@
     "index.html": "/4p22-final-project-Olesya-Snigurenko/index.html",
     "static/media/search.svg": "/4p22-final-project-Olesya-Snigurenko/static/media/search.3808c99401d8f1e83fec20d5cae7c394.svg",
     "main.c1c9d2ec.css.map": "/4p22-final-project-Olesya-Snigurenko/static/css/main.c1c9d2ec.css.map",
-    "main.425476ec.js.map": "/4p22-final-project-Olesya-Snigurenko/static/js/main.425476ec.js.map"
+    "main.32b57817.js.map": "/4p22-final-project-Olesya-Snigurenko/static/js/main.32b57817.js.map"
   },
   "entrypoints": [
     "static/css/main.c1c9d2ec.css",
-    "static/js/main.425476ec.js"
+    "static/js/main.32b57817.js"
   ]
 }
