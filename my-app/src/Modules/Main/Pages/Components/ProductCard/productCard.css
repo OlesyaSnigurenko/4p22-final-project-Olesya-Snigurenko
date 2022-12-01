@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: calc(16/1440*100vw);
+}
+
+.card{
+    width: 30%;
+    height: calc(540/1440*100vw);
+    text-align: center;
+    cursor: pointer; 
+}
+
+.card__image{
+    width: 100%;
+    height: calc(480/1440*100vw);
+    object-fit: contain;
+}
+
+.card__title{
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #000000;
+    font-weight: bold;
+}
+
+.card__price{
+    line-height: 150%;
+    color: #998E78;
+}
