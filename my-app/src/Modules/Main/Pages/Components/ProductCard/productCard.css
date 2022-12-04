@@ -9,7 +9,7 @@
 
 .card{
     width: 30%;
-    height: calc(540/1440*100vw);
+    height: calc(590/1440*100vw);
     text-align: center;
     cursor: pointer; 
 }
@@ -30,4 +30,14 @@
 .card__price{
     line-height: 150%;
     color: #998E78;
+}
+
+.card__batton{
+    outline: none;
+    background-color: #ffffff;
+    font-size: calc(16/1440*100vw);
+    width: 12em;
+    height: 2em;
+    border: 1px solid #000000;
+    margin-top: 0.5em;
 }

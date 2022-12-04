@@ -1,7 +1,7 @@
-import "./productCard.css";
+import "./ProductCard.css";
 import { useNavigate } from "react-router-dom";
 
-const Card = (props) => {
+const ProductCard = (props) => {
   const { id, image, title, price } = props;
   const navigate = useNavigate();
 
@@ -10,8 +10,9 @@ const Card = (props) => {
       <img className="card__image" src={image} />
       <div className="card__title">{title}</div>
       <div className="card__price">{price} ₽</div>
+      <button className="card__batton">В корзину</button>
     </div>
   );
 };
 
-export default Card;
+export default ProductCard;

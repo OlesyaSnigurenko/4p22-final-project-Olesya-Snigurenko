@@ -1,0 +1,9 @@
+.cart{
+    height: 60vh;
+}
+
+.cart p{
+    font-size: 1.6rem;
+    text-align: center;
+    margin-top: 4rem;
+}

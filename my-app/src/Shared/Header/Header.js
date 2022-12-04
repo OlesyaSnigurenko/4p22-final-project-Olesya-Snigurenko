@@ -3,9 +3,9 @@ import { useNavigate } from "react-router-dom";
 
 import "./Header.css";
 
-import logo from "Assets/Image/logo.svg";
-import basket from "Assets/Image/basket.svg";
-import telephone from "Assets/Image/telephone.svg";
+import logo from "assets/Image/logo.svg";
+import basket from "assets/Image/basket.svg";
+import telephone from "assets/Image/telephone.svg";
 
 const Header = () => {
   const navigate = useNavigate();
@@ -22,10 +22,10 @@ const Header = () => {
       </div>
       <div className="header__tel">
         <img src={telephone} alt="telephone" />
-        <p>+7(495)823-54-12</p>
+        <p>+7(965)675-93-08</p>
       </div>
       <div className="header__basket">
-        <img src={basket} alt="basket" />
+        <img onClick={() => navigate("/cart")} src={basket} alt="basket" />
       </div>
     </div>
   );

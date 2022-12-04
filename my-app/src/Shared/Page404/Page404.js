@@ -1,10 +1,11 @@
 import React from "react";
+
 import "./Page404.css";
 
 const Page404 = () => {
   return (
     <div>
-      <div className="title">Это моя страница</div>
+      <div className="title">Страница 404</div>
       <div className="title">Этой страницы не существует</div>
     </div>
   );

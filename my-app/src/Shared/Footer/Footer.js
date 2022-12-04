@@ -3,10 +3,10 @@ import { useNavigate } from "react-router-dom";
 
 import "./Footer.css";
 
-import logo from "Assets/Image/logo.svg";
-import instagram from "Assets/Image/instagram.svg";
-import facebook from "Assets/Image/facebook.svg";
-import twitter from "Assets/Image/twitter.svg";
+import logo from "assets/Image/logo.svg";
+import instagram from "assets/Image/instagram.svg";
+import facebook from "assets/Image/facebook.svg";
+import twitter from "assets/Image/twitter.svg";
 
 const Footer = () => {
   const navigate = useNavigate();
@@ -28,8 +28,8 @@ const Footer = () => {
           <p onClick={() => navigate("/contacts")}>Контакты</p>
         </div>
         <div className="footer__contacts">
-          <p>+7 (495) 823-54-12</p>
-          <p>hello@womazing.com</p>
+          <p>+7(965)675-93-08</p>
+          <p>info@womazing.com</p>
           <div className="footer-contacts__networks">
             <img src={instagram} alt="icon instagram" />
             <img src={facebook} alt="icon facebook" />
