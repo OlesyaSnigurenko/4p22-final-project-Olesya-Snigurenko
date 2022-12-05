@@ -27,11 +27,23 @@
     line-height: 140%;
     letter-spacing: 0.02em;
     color: #000000;
-    margin-bottom: 6.25rem;
+    margin-bottom: 5.5rem;
 }
 
 .card-info__title-name span{
     color: #909090;
+}
+
+.card-info_navigation{
+    display: flex;
+    column-gap: 11.8rem;
+    width: calc(540/1440*100vw);
+    margin-bottom: 0.5rem;
+}
+
+.card-info_navigation p{
+    border-bottom: 0.06rem solid black ;
+    cursor: pointer;
 }
 
 .card-info__image{
@@ -76,6 +88,7 @@
     display: flex;
     margin-top: 11rem;
 }
+
 
 
 

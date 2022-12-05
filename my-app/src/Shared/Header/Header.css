@@ -59,28 +59,9 @@
     margin-left: 0.7em;
 }
 
-/* .header__search{
-    flex-basis: 22%;
-    display: flex;
-    justify-content: right;
+.header__navbar p:hover{
+    font-weight: bold;
 }
-
-.header__search input{
-    outline: none;
-    width: 65%;
-    height: 12%;
-    line-height: 140%;
-    letter-spacing: 0.02em;
-    color: black;
-    border: 1px solid #000000;
-    border-radius: 5px;
-} */
-
-/* .header__search label{
-    position: relative;
-    margin-left: -1.4rem;
-    margin-top: 0px;
-} */
 
 .header__basket{
     flex-basis: 9%;

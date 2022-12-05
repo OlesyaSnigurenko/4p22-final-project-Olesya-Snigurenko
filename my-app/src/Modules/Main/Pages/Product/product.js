@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 import { Header } from "shared";
 import { Footer } from "shared";
@@ -26,6 +27,10 @@ const Product = () => {
     window.scrollTo({ top: 0 });
   }, []);
 
+  const next = Number(productInfo.id) + 1;
+  const last = Number(productInfo.id) - 1;
+  const navigate = useNavigate();
+
   return (
     <div>
       <Header />
@@ -34,6 +39,14 @@ const Product = () => {
         <p className="card-info__title-name">
           Главная - {productInfo.category} - <span>{productInfo.title}</span>
         </p>
+        <div className="card-info_navigation">
+          <p className="card-info__last" onClick={() => navigate(`/catalog/${last}`)}>
+            К предыдущему товару
+          </p>
+          <p className="card-info__next" onClick={() => navigate(`/catalog/${next}`)}>
+            К следующему товару
+          </p>
+        </div>
         <img className="card-info__image" src={productInfo.image} />
         <div className="card-info__wrapper">
           <p className="card-info-wrapper__price">{productInfo.price} ₽</p>

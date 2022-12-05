@@ -44,7 +44,7 @@
     width: calc(1140/1440*100vw);
     height: calc(450/1440*100vw);
     outline: none;
-    border: 1px solid #909090;
+    border: 0.06rem solid #909090;
 }
 
 .contacts__communication{
@@ -79,14 +79,14 @@
     width: 50%;
     height: 2.5em;
     border: 0px;
-    border-bottom: 2px solid #868686;
+    border-bottom: 0.12rem solid #868686;
     outline: none;
     color: black;
 }
 
 .contacts-form__error{
     position: absolute;
-    top: 9px;
+    top: 0.6rem;
     left: calc(400/1440*100vw);;
     color: red;
 }
@@ -116,6 +116,7 @@
 }
 
 .contacts-form__radio{
+    position: relative;
     display: flex;
     flex-direction: column;
 }
@@ -141,7 +142,7 @@
     transform: translateY(-50%);
     left: 0;
     box-sizing: border-box;
-    border: 2px solid #868686;
+    border: 0.12rem solid #868686;
     border-radius: 50%;
     width: 1.25rem;
     height: 1.25rem;
@@ -195,8 +196,8 @@
 
 .contacts-form__textarea textarea {
     border: none;
-    border-bottom: 2px solid #868686;
-    border-top: 2px solid #868686;
+    border-bottom: 0.12rem solid #868686;
+    border-top: 0.12rem solid #868686;
     outline: none;
     resize: none;
     width: 50%;
@@ -241,7 +242,7 @@
     transform: translateY(-50%);
     left: 0;
     box-sizing: border-box;
-    border: 2px solid #868686;
+    border: 0.12rem solid #868686;
     width: 1.6rem;
     height: 1.6rem;
 }
@@ -253,6 +254,13 @@
     justify-content: center;
     align-items: center;
     
+}
+
+.contacts-form__error-checkbox{
+    position: absolute;
+    top: 0.2rem;
+    left: calc(400/1440*100vw);;
+    color: red;
 }
 
 .contacts-form__button{

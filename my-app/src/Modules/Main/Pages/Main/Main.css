@@ -71,3 +71,30 @@ padding-top:calc(80/1440*100vw);
     height: calc(320/1440*100vw);
 }
 
+.main__heading{
+    font-size: calc(40/1440*100vw);
+    line-height: 110%;
+    letter-spacing: 0.02em;
+    margin: 9rem 0 2.5rem;
+}
+
+.main__list{
+    display: flex;
+    column-gap: 3.5rem;
+    width: 100%;
+    padding-bottom: 1rem;
+}
+
+.main__list p{
+    width: 33.3%;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+}
+
+.main__list span{
+    font-size: calc(25/1440*100vw);
+    line-height: 250%;
+    letter-spacing: 0.02em;
+}
+
+

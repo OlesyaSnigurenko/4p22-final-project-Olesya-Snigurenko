@@ -18,12 +18,17 @@ const Contacts = () => {
   const [comment, setComment] = useState("");
   const [checked, setChecked] = useState(false);
 
-  const [isEmailInvalid, setIsEmailInvalid] = useState(false);
   const [isNameInvalid, setIsNameInvalid] = useState(false);
+  const [isEmailInvalid, setIsEmailInvalid] = useState(false);
   const [isСommentInvalid, setIsСommentInvalid] = useState(false);
+  const [isAppealInvalid, setIsAppealInvalid] = useState(false);
+  const [isCheckedInvalid, setIsCheckedInvalid] = useState(false);
+
   const [mailError, setMailError] = useState("");
   const [nameError, setNameError] = useState("");
   const [commentError, setСommentError] = useState("");
+  const [appealError, setAppealError] = useState("");
+  const [checkedError, setCheckedError] = useState("");
 
   const onSubmit = (event) => {
     event.preventDefault();
@@ -56,6 +61,18 @@ const Contacts = () => {
       isValid = false;
       setСommentError("Вы ничего не написали");
     } else setСommentError("");
+
+    if (formData.appeal === "") {
+      setIsAppealInvalid(true);
+      isValid = false;
+      setAppealError("Поле не отмечено");
+    } else setAppealError("");
+
+    if (formData.checked === false) {
+      setIsCheckedInvalid(true);
+      isValid = false;
+      setCheckedError("Поле не отмечено");
+    } else setCheckedError("");
 
     if (isValid) {
       console.log(formData);
@@ -132,7 +149,10 @@ const Contacts = () => {
                 type="radio"
                 value="Возврат/обмен товара"
                 checked={appeal == "Возврат/обмен товара" ? true : false}
-                onChange={(event) => setAppeal(event.target.value)}
+                onChange={(event) => {
+                  setAppeal(event.target.value);
+                  setIsAppealInvalid(false);
+                }}
               />
               <label htmlFor="appeal1">Возврат/обмен товара</label>
             </div>
@@ -143,10 +163,14 @@ const Contacts = () => {
                 type="radio"
                 value="Отзыв о магазине"
                 checked={appeal == "Отзыв о магазине" ? true : false}
-                onChange={(event) => setAppeal(event.target.value)}
+                onChange={(event) => {
+                  setAppeal(event.target.value);
+                  setIsAppealInvalid(false);
+                }}
               />
               <label htmlFor="appeal2">Отзыв о магазине</label>
             </div>
+            <p className="contacts-form__error">{appealError}</p>
           </div>
 
           <div className="contacts-form__textarea">
@@ -184,9 +208,13 @@ const Contacts = () => {
               id="checkbox"
               type="checkbox"
               checked={checked}
-              onChange={() => setChecked(!checked)}
+              onChange={() => {
+                setChecked(!checked);
+                setIsCheckedInvalid(false);
+              }}
             />
             <label htmlFor="checkbox">Я согласен на обработку личных данных</label>
+            <p className="contacts-form__error-checkbox">{checkedError}</p>
           </div>
 
           <div className="contacts-form__button">

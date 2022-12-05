@@ -41,3 +41,7 @@
     border: 1px solid #000000;
     margin-top: 0.5em;
 }
+
+.card__batton:hover{
+    background-color: #6E9C9F;
+}
