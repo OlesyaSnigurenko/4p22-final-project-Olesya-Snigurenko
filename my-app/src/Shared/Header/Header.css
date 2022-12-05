@@ -15,7 +15,6 @@
     align-items: center;
     padding: 0 calc(150/1440*100vw);
     background: linear-gradient(to right, #FFFFFF 50%, #F1EADC 50%);
-
 }
 
 .header__name{
@@ -80,4 +79,5 @@
     width: 1.4rem;
     height: 1.4rem;
 }
+
 

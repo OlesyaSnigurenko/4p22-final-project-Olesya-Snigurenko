@@ -38,7 +38,7 @@
     font-size: calc(16/1440*100vw);
     width: 12em;
     height: 2em;
-    border: 1px solid #000000;
+    border: 0.06rem solid #000000;
     margin-top: 0.5em;
 }
 
