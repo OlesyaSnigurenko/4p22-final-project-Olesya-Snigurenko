@@ -18,7 +18,7 @@
     width: 100%;
     height: 100%;
     min-height: 100vh;
-    padding: 5rem calc(150/1440*100vw);
+    padding: 5rem calc(150/1440*100vw) 0;
 }
 
 .contacts__title {
@@ -265,7 +265,7 @@
 
 .contacts-form__button{
     padding-right: 50%;
-    margin: 1.8rem auto;
+    margin: 2rem auto 1rem;
 }
 
 

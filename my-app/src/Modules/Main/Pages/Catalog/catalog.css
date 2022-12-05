@@ -27,7 +27,7 @@
     line-height: 140%;
     letter-spacing: 0.02em;
     color: #000000;
-    margin-bottom: 6em;
+    margin-bottom: 3em;
 }
 
 .catalog__main span{
@@ -38,10 +38,10 @@
     display: flex;
     column-gap: 1em;
     width: 100%;
-    margin-bottom: 6em;
+    margin-bottom: 3em;
 }
 
-.catalog__list p, .catalog-list__search input{
+.catalog__list p{
     width: 20%;
     line-height: 140%;
     letter-spacing: 0.02em;
@@ -56,26 +56,33 @@
     background-color: #F1EADC;
 }
 
-.catalog-list__search{
+.catalog__search{
    position: relative;
+   display: flex;
+   justify-content: right;
+   margin-bottom: 2rem;
+   
 }
 
-.catalog-list__search input{
-    width: 100%;
+.catalog__search input{
+    width: 33%;
+    height: 2.2rem;
     outline: none;
     text-align: left;
     padding-left: 0.5rem;
+    line-height: 140%;
+    letter-spacing: 0.02em;
 }
 
-.catalog-list__search button{
+.catalog__search button{
    position: absolute;
    right: 0;
-   top: 1em;
+   top: 0.3rem;
    border: none;
    background-color: transparent;
 }
 
-.catalog-list__icon{
+.catalog-search__icon{
     height: 1.5rem;
     width: 1.5rem;
 }

@@ -62,30 +62,29 @@ const Catalog = () => {
         <p className="catalog__main">
           Главная - <span>каталог</span>
         </p>
-
+        <div className="catalog__search">
+          <input
+            type="text"
+            value={search}
+            onChange={(event) => setSearch(event.target.value)}
+            onKeyDown={(event) => {
+              if (event.key === "Enter") {
+                searchBattonRef.current.click();
+              }
+            }}
+            placeholder="Найти товар"
+          />
+          <button type="button" onClick={onSearch} ref={searchBattonRef}>
+            <img className="catalog-search__icon" src={searchIcon} />
+          </button>
+        </div>
         <div className="catalog__list">
-          <div className="catalog-list__search">
-            <input
-              type="text"
-              value={search}
-              onChange={(event) => setSearch(event.target.value)}
-              onKeyDown={(event) => {
-                if (event.key === "Enter") {
-                  searchBattonRef.current.click();
-                }
-              }}
-              placeholder="Найти товар"
-            />
-            <button type="button" onClick={onSearch} ref={searchBattonRef}>
-              <img className="catalog-list__icon" src={searchIcon} />
-            </button>
-          </div>
+          <p onClick={() => setSelectedCategory(``)}>Все товары</p>
           <p onClick={() => setSelectedCategory(`Платья и сарафаны`)}>Платья и сарафаны</p>
           <p onClick={() => setSelectedCategory(`Джемпера и кардиганы`)}>Джемпера и кардиганы</p>
           <p onClick={() => setSelectedCategory(`Майки и топы`)}>Майки и топы</p>
           <p onClick={() => setSelectedCategory(`Брюки и шорты`)}>Брюки и шорты</p>
         </div>
-
         <div className="catalog__card">
           {totalProducts.length !== 0 ? (
             totalProducts.map((product) => (
