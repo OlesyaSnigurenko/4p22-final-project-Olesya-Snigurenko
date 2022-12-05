@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/4p22-final-project-Olesya-Snigurenko/static/css/main.d735648c.css",
-    "main.js": "/4p22-final-project-Olesya-Snigurenko/static/js/main.7445fefa.js",
+    "main.css": "/4p22-final-project-Olesya-Snigurenko/static/css/main.20f84b77.css",
+    "main.js": "/4p22-final-project-Olesya-Snigurenko/static/js/main.849600c4.js",
     "static/media/main.png": "/4p22-final-project-Olesya-Snigurenko/static/media/main.c213f02d2f87e7605482.png",
     "static/media/left.png": "/4p22-final-project-Olesya-Snigurenko/static/media/left.efdd31b3288e985c9e3d.png",
     "static/media/right.png": "/4p22-final-project-Olesya-Snigurenko/static/media/right.13fc599ce0fc9966d04e.png",
@@ -13,11 +13,11 @@
     "static/media/facebook.svg": "/4p22-final-project-Olesya-Snigurenko/static/media/facebook.5e23e944cd9667bb589c52bb6be5dd5b.svg",
     "index.html": "/4p22-final-project-Olesya-Snigurenko/index.html",
     "static/media/search.svg": "/4p22-final-project-Olesya-Snigurenko/static/media/search.3808c99401d8f1e83fec20d5cae7c394.svg",
-    "main.d735648c.css.map": "/4p22-final-project-Olesya-Snigurenko/static/css/main.d735648c.css.map",
-    "main.7445fefa.js.map": "/4p22-final-project-Olesya-Snigurenko/static/js/main.7445fefa.js.map"
+    "main.20f84b77.css.map": "/4p22-final-project-Olesya-Snigurenko/static/css/main.20f84b77.css.map",
+    "main.849600c4.js.map": "/4p22-final-project-Olesya-Snigurenko/static/js/main.849600c4.js.map"
   },
   "entrypoints": [
-    "static/css/main.d735648c.css",
-    "static/js/main.7445fefa.js"
+    "static/css/main.20f84b77.css",
+    "static/js/main.849600c4.js"
   ]
 }
